@@ -1,4 +1,4 @@
-package com.mycompany.projetoaula20150917;
+package br.ufg.inf.es.construcao.projetoaula20150917;
 
 import org.junit.Assert;
 import org.junit.Test;
