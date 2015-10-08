@@ -11,9 +11,11 @@
     <name>Atividades - Construcao de Software - 2015-2</name>
 
     <modules>
-		<module>ProjetoAula20150917</module>
-		<module>Algoritmo35</module>
-		<module>Algoritmo36</module>
+        <module>ProjetoAula20150917</module>
+        <module>Algoritmo10</module>
+        <module>Algoritmo35</module>
+        <module>Algoritmo36</module>
+        <module>Algoritmo22</module>
     </modules>
 
     <build>
