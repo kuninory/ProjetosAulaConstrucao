@@ -2,7 +2,7 @@ package br.ufg.inf.es.construcao.algoritmo35;
 
 public class Algoritmo35 {
 
-    public static int LUHN(int[] n) {
+    public static int Luhn(int[] n) {
 
         if (n.length < 2) {
             throw new IllegalArgumentException("O vetor n[] deve ter 3 ou mais valores!");

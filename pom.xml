@@ -16,6 +16,8 @@
         <module>Algoritmo35</module>
         <module>Algoritmo36</module>
         <module>Algoritmo22</module>
+        <module>Algoritmo20</module>
+        <module>Algoritmo3</module>
     </modules>
 
     <build>

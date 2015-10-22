@@ -2,11 +2,12 @@ package br.ufg.inf.es.construcao.algoritmo10;
 
 public class Algoritmo10 {
 
-    public static void CRIVO_ERATOSTENES(int[] a, int n) {
+    public static void CrivoEratostenes(int[] a, int n) {
 
         if (n <= 1) {
             throw new IllegalArgumentException("O valor de n deve ser maior que 1!");
         }
+        
         int i;
 
         i = 2;

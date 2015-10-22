@@ -2,7 +2,7 @@ package br.ufg.inf.es.construcao.algoritmo22;
 
 public class Algoritmo22 {
 
-    public static boolean AMIGOS(int n, int m) {
+    public static boolean Amigos(int n, int m) {
 
         if (n <= 0) {
             throw new IllegalArgumentException("O valor n deve ser maior que 0!");
