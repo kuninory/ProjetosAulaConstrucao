@@ -1,9 +1,9 @@
-package br.ufg.inf.es.construcao.projetoaula20150917;
+package br.ufg.inf.es.construcao.algoritmo12;
 
 /**
  * Funções matemáticas. Máximo Divisor Comum.
  */
-public class Mdc {
+public class Algoritmo12 {
 
     /**
      * Calcula o Máximo Divisor Comum entre 2 números.
