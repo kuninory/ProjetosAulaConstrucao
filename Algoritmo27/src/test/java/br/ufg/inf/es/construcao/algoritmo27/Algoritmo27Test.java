@@ -44,5 +44,5 @@ public class Algoritmo27Test {
         float result = Algoritmo27.mod(x, y);
         assertEquals(expResult, result, 0.0);
     }
-    
+
 }

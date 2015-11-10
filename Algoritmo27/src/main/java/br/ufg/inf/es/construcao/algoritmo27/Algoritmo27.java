@@ -13,7 +13,7 @@ public class Algoritmo27 {
      * @throws IllegalArgumentException Caso o "x" não for um valor maior que 
      * 0 e se "y" não for uma valor maior que 0.
      */
-    public static float mod(float x, float y) {
+    public static int mod(float x, float y) {
         if (x <= 0) {
             throw new IllegalArgumentException("O valor de x deve ser maior "
                     + "que 0!");
@@ -28,6 +28,6 @@ public class Algoritmo27 {
             s = s - y;
         }
 
-        return s;
+        return (int)s;
     }
 }

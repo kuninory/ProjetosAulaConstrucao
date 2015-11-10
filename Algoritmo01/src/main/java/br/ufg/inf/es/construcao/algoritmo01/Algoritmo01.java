@@ -1,5 +1,7 @@
 package br.ufg.inf.es.construcao.algoritmo01;
 
+import br.ufg.inf.es.construcao.algoritmo27.Algoritmo27;
+
 public class Algoritmo01 {
 
     /**
@@ -39,6 +41,6 @@ public class Algoritmo01 {
         int s = d + (2 * m) + (3 * (m + 1) / 5) + a + (a / 4) - (a / 100) + 
                 (a / 400);
 
-        return s % 7;
+        return Algoritmo27.mod(s, 7);
     }
 }
