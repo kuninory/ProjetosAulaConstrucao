@@ -2,6 +2,16 @@ package br.ufg.inf.es.construcao.algoritmo03;
 
 public class Algoritmo03 {
 
+    /**
+     * Obtém o valor da somatória de todos os naturais entre 2 e 'n'.
+     *
+     * @param n É o número natural base.
+     *
+     * @return O valor do retorno é somatória de todos os naturais entre 
+     * 2 e 'n'.
+     *
+     * @throws IllegalArgumentException Caso o 'n' seja menor que 1.
+     */
     public static int SomaNaturais(int n) {
 
         if (n < 1) {
