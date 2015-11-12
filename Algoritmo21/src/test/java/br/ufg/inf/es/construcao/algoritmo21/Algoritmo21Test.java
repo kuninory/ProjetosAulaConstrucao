@@ -6,7 +6,7 @@ import static org.junit.Assert.*;
 public class Algoritmo21Test {
 
     @Test(expected = IllegalArgumentException.class)
-    public void testParametroT1MenorQue1() {
+    public void testParametroMenorQue1() {
         boolean resultado = Algoritmo21.quadradoPerfeito(0);
     }
 

@@ -22,17 +22,17 @@ public class Algoritmo12Test {
     }
 
     @Test
-    public void testEspera1() {
+    public void testMdc2Espera1() {
         Assert.assertTrue((float) 1 == Algoritmo12.mdc2(1, 1));
     }
 
     @Test
-    public void testEspera5() {
+    public void testMdc2Espera5() {
         Assert.assertTrue((float) 5 == Algoritmo12.mdc2(10, 5));
     }
 
     @Test
-    public void testEspera4() {
+    public void testMdc2Espera4() {
         Assert.assertTrue((float) 4 == Algoritmo12.mdc2(12, 8));
     }
 

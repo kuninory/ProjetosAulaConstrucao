@@ -15,9 +15,24 @@ public class Algoritmo20Test {
     public void testParametroT1Igual0() {
         double resultado = Algoritmo20.RazaoAurea(0, 6, 2);
     }
+    
+    @Test(expected = IllegalArgumentException.class)
+    public void testParametroT2MenorT1() {
+        double resultado = Algoritmo20.RazaoAurea(5, 2, 2);
+    }
+    
+    @Test(expected = IllegalArgumentException.class)
+    public void testParametroFatorMenor0() {
+        double resultado = Algoritmo20.RazaoAurea(5, 6, -1);
+    }
+    
+    @Test(expected = IllegalArgumentException.class)
+    public void testParametroFatorIgual0() {
+        double resultado = Algoritmo20.RazaoAurea(5, 6, 0);
+    }
 
     @Test
-    public void testrazaoAurea() {
+    public void testRazaoAurea() {
         double a = 10;
         double b = 20;
         int fator = 5;

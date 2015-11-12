@@ -12,8 +12,13 @@ import org.junit.Test;
  */
 public class Algoritmo43Test {
     
+    @Test(expected = IllegalArgumentException.class)
+    public void testPermutacaoStringVazia() {
+        List<String> resultadoParcial = Algoritmo43.permutacao("", "", new ArrayList<String>());
+    }
+    
     @Test
-    public void testPermutacao() {
+    public void testPermutacaoAB() {
         String prefixo = "";
         String conjunto = "AB";
         List<String> resultadoParcial = Algoritmo43.permutacao(prefixo, conjunto, new ArrayList<String>());

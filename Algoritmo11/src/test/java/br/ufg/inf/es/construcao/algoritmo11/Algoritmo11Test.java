@@ -21,17 +21,17 @@ public class Algoritmo11Test {
     }
 
     @Test
-    public void testEspera1() {
+    public void tesMdctEspera1() {
         assertTrue(1 == Algoritmo11.mdc(1, 1));
     }
 
     @Test
-    public void testEspera5() {
+    public void testMdcEspera5() {
         assertTrue(5 == Algoritmo11.mdc(10, 5));
     }
 
     @Test
-    public void testEspera4() {
+    public void testMdcEspera4() {
         assertTrue(4 == Algoritmo11.mdc(12, 8));
     }
 
