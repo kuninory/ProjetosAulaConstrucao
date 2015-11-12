@@ -2,6 +2,10 @@ package br.ufg.inf.es.construcao.algoritmo01;
 
 import br.ufg.inf.es.construcao.algoritmo27.Algoritmo27;
 
+/**
+ *
+ * @author Felipe
+ */
 public class Algoritmo01 {
 
     /**

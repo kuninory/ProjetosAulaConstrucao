@@ -2,8 +2,22 @@ package br.ufg.inf.es.construcao.algoritmo07;
 
 import br.ufg.inf.es.construcao.algoritmo05.Algoritmo05;
 
+/**
+ *
+ * @author Felipe
+ */
 public class Algoritmo07 {
 
+    /**
+     * .
+     *
+     * @param n
+     *
+     * @return .
+     *
+     * @throws IllegalArgumentException Caso o 'n' seja maior que 9999 ou 
+     * menor que 0.
+     */
     public static boolean propriedade3025(int n) {
 
         if (n < 0 || n > 9999) {

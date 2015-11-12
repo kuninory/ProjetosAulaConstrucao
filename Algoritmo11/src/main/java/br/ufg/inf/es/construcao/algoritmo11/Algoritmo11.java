@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package br.ufg.inf.es.construcao.algoritmo11;
 
 /**
@@ -11,6 +6,18 @@ package br.ufg.inf.es.construcao.algoritmo11;
  */
 public class Algoritmo11 {
 
+    /**
+     * Descobre o máximo divisor comum, ou MDC, o maior divisor inteiro 
+     * comum entre 'a' e 'b'.
+     *
+     * @param a Primeiro valor.
+     * @param b Segundo valor.
+     *
+     * @return O máximo divisor comum entre 'a' e 'b'.
+     *
+     * @throws IllegalArgumentException Caso o 'a' seja menor que 'b' ou 
+     * quando 'b' seja igual ou menor que 0.
+     */
     public static float mdc(int a, int b) {
 
         if (a < b) {

@@ -2,8 +2,21 @@ package br.ufg.inf.es.construcao.algoritmo14;
 
 import br.ufg.inf.es.construcao.algoritmo05.Algoritmo05;
 
+/**
+ *
+ * @author Felipe
+ */
 public class Algoritmo14 {
 
+    /**
+     * Encontra a somatória dado um 'n'.
+     *
+     * @param n Número de repetições.
+     *
+     * @return Retorna a série harmônica.
+     *
+     * @throws IllegalArgumentException Se o parâmetro "n" for menor que 1.
+     */
     public static float somatorio(int n) {
 
         if (n < 1) {

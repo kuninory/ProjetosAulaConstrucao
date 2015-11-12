@@ -1,7 +1,20 @@
 package br.ufg.inf.es.construcao.algoritmo16;
 
+/**
+ *
+ * @author Felipe
+ */
 public class Algoritmo16 {
 
+    /**
+     * Encontra o fatorial de 'n'.
+     *
+     * @param n Número de repetições.
+     *
+     * @return Retorna o fatorial de 'n'
+     *
+     * @throws IllegalArgumentException Se o parâmetro "n" for menor que 1.
+     */
     public static int fatorial(int n) {
 
         if (n < 1) {

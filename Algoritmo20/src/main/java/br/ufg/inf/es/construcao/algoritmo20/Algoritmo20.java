@@ -1,7 +1,23 @@
 package br.ufg.inf.es.construcao.algoritmo20;
 
+/**
+ *
+ * @author Felipe
+ */
 public class Algoritmo20 {
 
+    /**
+     * Encontra a razão áurea.
+     *
+     * @param t1 Auxilia a encontrar o termo anterior.
+     * @param t2 Auxilia a encontrar o termo corrente.
+     * @param fator É o fator.
+     *
+     * @return Retorna a razão áurea.
+     *
+     * @throws IllegalArgumentException Se o parâmetro 't1' for menor ou 
+     * igual a 0 ou se o 't2' for menor ou igual ao 't1'.
+     */
     public static double RazaoAurea(double t1, double t2, int fator) {
 
         if (t1 <= 0) {

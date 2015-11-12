@@ -1,5 +1,9 @@
 package br.ufg.inf.es.construcao.algoritmo02;
 
+/**
+ *
+ * @author Felipe
+ */
 public class Algoritmo02 {
 
     /**

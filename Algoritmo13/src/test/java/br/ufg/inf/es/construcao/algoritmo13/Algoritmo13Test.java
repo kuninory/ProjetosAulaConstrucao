@@ -12,13 +12,12 @@ public class Algoritmo13Test {
     
     @Test
     public void testNumeroharmonico() {
-        int expResult = 1;
         
-        assertEquals(expResult, Algoritmo13.numeroharmonico(1));
-        assertEquals(expResult, Algoritmo13.numeroharmonico(2));
-        assertEquals(expResult, Algoritmo13.numeroharmonico(3));
-        assertEquals(expResult, Algoritmo13.numeroharmonico(5));
-        assertEquals(expResult, Algoritmo13.numeroharmonico(20));
+        assertEquals(1.0, Algoritmo13.numeroharmonico(1), 0.0);
+        assertEquals(1.5, Algoritmo13.numeroharmonico(2), 0.0);
+        assertEquals(1.83, Algoritmo13.numeroharmonico(3), 0.01);
+        assertEquals(2.28, Algoritmo13.numeroharmonico(5), 0.01);
+        assertEquals(3.59, Algoritmo13.numeroharmonico(20), 0.01);
     }
     
 }

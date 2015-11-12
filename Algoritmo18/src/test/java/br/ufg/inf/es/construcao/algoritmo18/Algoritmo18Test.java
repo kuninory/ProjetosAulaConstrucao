@@ -20,8 +20,8 @@ public class Algoritmo18Test {
         int n = 1;
         int k = 2;
         int expResult = 2;
-        int result = Algoritmo18.logNaturalSimples(n, k);
-        assertEquals(expResult, result);
+        double result = Algoritmo18.logNaturalSimples(n, k);
+        assertEquals(expResult, result, 0.0);
     }
     
     @Test
@@ -29,8 +29,8 @@ public class Algoritmo18Test {
         int n = 2;
         int k = 3;
         int expResult = 6;
-        int result = Algoritmo18.logNaturalSimples(n, k);
-        assertEquals(expResult, result);
+        double result = Algoritmo18.logNaturalSimples(n, k);
+        assertEquals(expResult, result, 0.0);
     }
     
     @Test
@@ -38,8 +38,8 @@ public class Algoritmo18Test {
         int n = 5;
         int k = 10;
         int expResult = 142;
-        int result = Algoritmo18.logNaturalSimples(n, k);
-        assertEquals(expResult, result);
+        double result = Algoritmo18.logNaturalSimples(n, k);
+        assertEquals(expResult, result, 0.0);
     }
     
 }

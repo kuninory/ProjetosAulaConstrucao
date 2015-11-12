@@ -16,39 +16,39 @@ public class Algoritmo19Test {
     }
     
     @Test
-    public void testLogNaturalSimplesEspera2() {
-        int n = 1;
-        int k = 2;
-        int expResult = 2;
-        int result = Algoritmo19.logn(n, k);
-        assertEquals(expResult, result);
+    public void testLogNaturalSimples1_1() {
+        double n = 1;
+        double k = 2;
+        double expResult = 2.5;
+        double result = Algoritmo19.logn(n, k);
+        assertEquals(expResult, result, 0.0);
     }
     
     @Test
-    public void testLogNaturalSimplesEspera6() {
-        int n = 2;
-        int k = 3;
-        int expResult = 6;
-        int result = Algoritmo19.logn(n, k);
-        assertEquals(expResult, result);
+    public void testLogNaturalSimples2_3() {
+        double n = 2;
+        double k = 3;
+        double expResult = 6.3;
+        double result = Algoritmo19.logn(n, k);
+        assertEquals(expResult, result, 0.1);
     }
     
     @Test
-    public void testLogNaturalSimplesEspera13() {
-        int n = 4;
-        int k = 2;
-        int expResult = 13;
-        int result = Algoritmo19.logn(n, k);
-        assertEquals(expResult, result);
+    public void testLogNaturalSimples4_2() {
+        double n = 4;
+        double k = 2;
+        double expResult = 13;
+        double result = Algoritmo19.logn(n, k);
+        assertEquals(expResult, result, 0.0);
     }
     
     @Test
-    public void testLogNaturalSimplesEspera136() {
-        int n = 5;
-        int k = 10;
-        int expResult = 136;
-        int result = Algoritmo19.logn(n, k);
-        assertEquals(expResult, result);
+    public void testLogNaturalSimples5_10() {
+        double n = 5;
+        double k = 10;
+        double expResult = 146.3;
+        double result = Algoritmo19.logn(n, k);
+        assertEquals(expResult, result, 0.1);
     }
     
 }

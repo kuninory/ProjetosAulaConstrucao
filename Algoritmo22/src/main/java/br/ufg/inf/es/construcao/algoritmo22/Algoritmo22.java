@@ -1,5 +1,9 @@
 package br.ufg.inf.es.construcao.algoritmo22;
 
+/**
+ *
+ * @author Felipe
+ */
 public class Algoritmo22 {
 
     public static boolean Amigos(int n, int m) {

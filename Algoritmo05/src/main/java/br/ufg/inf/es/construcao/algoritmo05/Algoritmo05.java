@@ -1,12 +1,16 @@
 package br.ufg.inf.es.construcao.algoritmo05;
 
+/**
+ *
+ * @author Felipe
+ */
 public class Algoritmo05 {
 
     /**
-     * Obtém o valor da potenciação de 'a' e 'b'.
+     * Obtém o valor da potenciação de 'x' elevado a 'y'.
      *
-     * @param a É o base.
-     * @param b É o expoente.
+     * @param x É o base.
+     * @param y É o expoente.
      *
      * @return O valor do retorno é a potenciação de 'a' e 'b'.
      *

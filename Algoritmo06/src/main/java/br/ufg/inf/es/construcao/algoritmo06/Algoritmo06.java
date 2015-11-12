@@ -2,8 +2,23 @@ package br.ufg.inf.es.construcao.algoritmo06;
 
 import br.ufg.inf.es.construcao.algoritmo04.Algoritmo04;
 
+/**
+ *
+ * @author Felipe
+ */
 public class Algoritmo06 {
 
+    /**
+     * Obtém o valor da potenciação de 'x' elevado a 'y'.
+     *
+     * @param x É o base.
+     * @param y É o expoente.
+     *
+     * @return O valor do retorno é a potenciação de 'a' e 'b'.
+     *
+     * @throws IllegalArgumentException Caso o 'a' seja menor ou igual a 0 
+     * ou 'b' seja menor que 0.
+     */
     public static int potenciaSoma(int x, int y) {
 
         if (x <= 0) {

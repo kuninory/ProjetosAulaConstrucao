@@ -1,8 +1,23 @@
 package br.ufg.inf.es.construcao.algoritmo19;
 
+/**
+ *
+ * @author Felipe
+ */
 public class Algoritmo19 {
 
-    public static int logn(int n, int k) {
+    /**
+     * Encontra o log de 'k' para a base 'n'.
+     *
+     * @param n É a base.
+     * @param k É o logaritmando.
+     *
+     * @return Retorna o fatorial de 'n'
+     *
+     * @throws IllegalArgumentException Se o parâmetro "n" for menor que 1 ou 
+     * se "k" for menor que 2.
+     */
+    public static double logn(double n, double k) {
 
         if (n < 1) {
             throw new IllegalArgumentException("O valor de 'n' deve ser maior "
@@ -14,8 +29,8 @@ public class Algoritmo19 {
         }
 
         int i = 2;
-        int e = n + 1;
-        int t = n;
+        double e = n + 1;
+        double t = n;
 
         while (i <= k) {
             t = t * n / i;
