@@ -27,7 +27,6 @@ public class Algoritmo27Test {
     
     @Test
     public void testModEspera1() {
-        System.out.println("Mod");
         float x = 1.0F;
         float y = 2.0F;
         float expResult = 0.0F;
@@ -37,7 +36,6 @@ public class Algoritmo27Test {
     
     @Test
     public void testModEspera0() {
-        System.out.println("Mod");
         float x = 10.0F;
         float y = 5.0F;
         float expResult = 0.0F;
