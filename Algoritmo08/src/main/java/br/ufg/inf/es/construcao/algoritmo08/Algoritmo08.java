@@ -5,15 +5,17 @@ import br.ufg.inf.es.construcao.algoritmo05.Algoritmo05;
 /**
  *
  * @author Felipe
+ * 
+ * Classe que calcula a propriedade 153
  */
 public class Algoritmo08 {
 
     /**
-     * .
+     * Calcula a soma dos cubos de três valores.
      *
-     * @param n
+     * @param n Número a ser calculado.
      *
-     * @return .
+     * @return A soma dos cubos de três valores..
      *
      * @throws IllegalArgumentException Caso o 'n' seja maior que 999 ou 
      * menor que 0.

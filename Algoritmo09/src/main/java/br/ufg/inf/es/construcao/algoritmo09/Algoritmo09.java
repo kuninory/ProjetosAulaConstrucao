@@ -3,6 +3,8 @@ package br.ufg.inf.es.construcao.algoritmo09;
 /**
  *
  * @author Felipe
+ * 
+ * Classe que verifica se um número é primo.
  */
 public class Algoritmo09 {
 

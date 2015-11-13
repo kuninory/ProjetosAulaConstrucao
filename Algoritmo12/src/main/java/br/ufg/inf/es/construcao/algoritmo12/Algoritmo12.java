@@ -21,9 +21,11 @@ public class Algoritmo12 {
     public static float mdc2(float a, float b) {
 
         if (a < b) {
-            throw new IllegalArgumentException("O valor a deve ser maior ou igual ao valor de b!");
+            throw new IllegalArgumentException("O valor a deve ser maior ou "
+                    + "igual ao valor de b!");
         } else if (b <= 0) {
-            throw new IllegalArgumentException("O valor de b não pode ser menor ou igual a 0!");
+            throw new IllegalArgumentException("O valor de b não pode ser "
+                    + "menor ou igual a 0!");
         }
 
         while (a != b) {

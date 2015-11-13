@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="br.ufg.inf.es.construcao.algoritmo10.Algoritmo10Test" time="0.071" errors="0" skipped="0">
+<testsuite tests="5" failures="0" name="br.ufg.inf.es.construcao.algoritmo10.Algoritmo10Test" time="0.094" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_11\jre\bin"/>
@@ -62,8 +62,8 @@
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
   <testcase classname="br.ufg.inf.es.construcao.algoritmo10.Algoritmo10Test" name="testCemNaoPrimo" time="0"/>
-  <testcase classname="br.ufg.inf.es.construcao.algoritmo10.Algoritmo10Test" name="testDoisPrimo" time="0"/>
   <testcase classname="br.ufg.inf.es.construcao.algoritmo10.Algoritmo10Test" name="testSeisNaoPrimo" time="0"/>
-  <testcase classname="br.ufg.inf.es.construcao.algoritmo10.Algoritmo10Test" name="testValorDeNInvalido" time="0"/>
+  <testcase classname="br.ufg.inf.es.construcao.algoritmo10.Algoritmo10Test" name="testDoisPrimo" time="0"/>
   <testcase classname="br.ufg.inf.es.construcao.algoritmo10.Algoritmo10Test" name="testVetorTamanhoInvalido" time="0"/>
+  <testcase classname="br.ufg.inf.es.construcao.algoritmo10.Algoritmo10Test" name="testValorDeNInvalido" time="0"/>
 </testsuite>

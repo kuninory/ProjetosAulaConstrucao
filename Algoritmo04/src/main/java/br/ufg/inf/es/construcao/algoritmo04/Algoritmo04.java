@@ -3,39 +3,41 @@ package br.ufg.inf.es.construcao.algoritmo04;
 /**
  *
  * @author Felipe
+ * 
+ * Classe que contém a função que calcula a multiplicação de dois números.
  */
 public class Algoritmo04 {
 
     /**
-     * Obtém o valor da multiplicação de 'a' e 'b'.
+     * Obtém o valor da multiplicação de 'valorA' e 'valorB'.
      *
-     * @param a É o multiplicando.
-     * @param b É o multiplicador.
+     * @param valorA É o multiplicando.
+     * @param valorB É o multiplicador.
      *
-     * @return O valor do retorno é a multiplicação de 'a' e 'b'.
+     * @return O valor do retorno é a multiplicação de 'valorA' e 'valorB'.
      *
-     * @throws IllegalArgumentException Caso o 'a' ou 'b' sejam menores que 0.
+     * @throws IllegalArgumentException Caso o 'valorA' ou 'valorB' sejam menores que 0.
      */
-    public static int produto(int a, int b) {
+    public static int produto(int valorA, int valorB) {
 
-        if (a < 0) {
-            throw new IllegalArgumentException("O valor de a deve ser maior "
+        if (valorA < 0) {
+            throw new IllegalArgumentException("O valor de 'valorA' deve ser maior "
                     + "ou igual a 0!");
         }
-        if (b < 0) {
-            throw new IllegalArgumentException("O valor de b deve ser maior "
+        if (valorB < 0) {
+            throw new IllegalArgumentException("O valor de 'valorB' deve ser maior "
                     + "ou igual a 0!");
         }
 
         int i = 1;
-        int s = 0;
+        int resultado = 0;
 
-        while (i <= b) {
-            s = s + a;
+        while (i <= valorB) {
+            resultado = resultado + valorA;
             i++;
         }
 
-        return s;
+        return resultado;
     }
     
 }

@@ -22,15 +22,15 @@ public class Algoritmo16 {
                     + "ou igual a 1!");
         }
 
-        int i = 1;
-        int f = 1;
+        int auxiliar = 1;
+        int valFatorial = 1;
 
-        while (i <= n) {
-            f = f * i;
-            i++;
+        while (auxiliar <= n) {
+            valFatorial = valFatorial * auxiliar;
+            auxiliar++;
         }
 
-        return f;
+        return valFatorial;
     }
 
 }

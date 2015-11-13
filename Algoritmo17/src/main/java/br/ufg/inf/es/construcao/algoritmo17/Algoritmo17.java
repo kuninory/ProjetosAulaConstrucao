@@ -24,15 +24,15 @@ public class Algoritmo17 {
                     + "ou igual a 1!");
         }
 
-        int i = 2;
-        int f = 1;
+        int auxiliar = 2;
+        int valFatorial = 1;
 
-        while (i <= n) {
-            f = Algoritmo04.produto(f,i); //veja algoritmo 4
-            i++;
+        while (auxiliar <= n) {
+            valFatorial = Algoritmo04.produto(valFatorial,auxiliar); //veja algoritmo 4
+            auxiliar++;
         }
 
-        return f;
+        return valFatorial;
     }
     
 }

@@ -5,15 +5,17 @@ import br.ufg.inf.es.construcao.algoritmo05.Algoritmo05;
 /**
  *
  * @author Felipe
+ * 
+ * Classe que calcula uma propriedade matemática.
  */
 public class Algoritmo07 {
 
     /**
-     * .
+     * Verifica se o quadrado das somas é o mesmo valor de 'n'.
      *
      * @param n
      *
-     * @return .
+     * @return Verdadeiro ou Falso.
      *
      * @throws IllegalArgumentException Caso o 'n' seja maior que 9999 ou 
      * menor que 0.

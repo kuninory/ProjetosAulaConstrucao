@@ -25,15 +25,15 @@ public class Algoritmo14 {
         }
 
         int i = 1;
-        float s = 0;
+        float resultado = 0;
 
         while (i <= n) {
             float d = 1 + Algoritmo05.potencia(i, 2);
-            s = s + (1 / d);
+            resultado = resultado + (1 / d);
             i++;
         }
 
-        return s;
+        return resultado;
     }
 
 }

@@ -9,29 +9,29 @@ package br.ufg.inf.es.construcao.algoritmo27;
 public class Algoritmo27 {
 
     /**
-     * Busca o resto da divisão entre "x" e "y".
+     * Busca o resto da divisão entre "dividendo" e "divisor".
      *
-     * @param x É o dividendo.
-     * @param y É o divisor.
+     * @param dividendo É o dividendo.
+     * @param divisor É o divisor.
      *
-     * @return O resto da divisão entre "x" e "y".
+     * @return O resto da divisão entre "dividendo e "divisor".
      *
-     * @throws IllegalArgumentException Caso o "x" não for um valor maior que 0
-     * e se "y" não for uma valor maior que 0.
+     * @throws IllegalArgumentException Caso o "dividendo" não for um valor 
+     * maior que 0 e se "divisor" não for uma valor maior que 0.
      */
-    public static int mod(float x, float y) {
-        if (x <= 0) {
-            throw new IllegalArgumentException("O valor de x deve ser maior "
-                    + "que 0!");
-        } else if (y <= 0) {
-            throw new IllegalArgumentException("O valor de y deve ser maior "
-                    + "que 0!");
+    public static int mod(float dividendo, float divisor) {
+        if (dividendo <= 0) {
+            throw new IllegalArgumentException("O valor de dividendo deve "
+                    + "ser maior que 0!");
+        } else if (divisor <= 0) {
+            throw new IllegalArgumentException("O valor de divisor deve ser "
+                    + "maior que 0!");
         }
 
-        double resultado = x;
+        double resultado = dividendo;
 
-        while (resultado >= y) {
-            resultado = resultado - y;
+        while (resultado >= divisor) {
+            resultado = resultado - divisor;
         }
 
         return (int) resultado;

@@ -3,6 +3,8 @@ package br.ufg.inf.es.construcao.algoritmo03;
 /**
  *
  * @author Felipe
+ *
+ * Classe que contém a função que calcula a soma de números naturais.
  */
 public class Algoritmo03 {
 

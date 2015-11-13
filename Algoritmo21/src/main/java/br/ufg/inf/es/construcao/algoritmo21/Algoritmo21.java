@@ -1,22 +1,39 @@
 package br.ufg.inf.es.construcao.algoritmo21;
 
+/**
+ *
+ * @author Felipe
+ *
+ * Classe que verifica o quadrado perfeito.
+ */
+
 public class Algoritmo21 {
 
-    public static boolean quadradoPerfeito(int k) {
+    /**
+     * Calcula se o número fornecido é um quadrado perfeito.
+     *
+     * @param num
+     *
+     * @return Retorna verdadeiro ou falso.
+     *
+     * @throws IllegalArgumentException Se o 'num' for menor que 1.
+     */
+    public static boolean quadradoPerfeito(int num) {
 
-        if (k < 1) {
-            throw new IllegalArgumentException("T1 deve ser maior que 0!");
+        if (num < 1) {
+            throw new IllegalArgumentException("num deve ser maior ou igual "
+                    + "a 1!");
         }
 
-        int i = 1;
-        int q = 1; //quadrado perfeito
+        int auxiliar = 1;
+        int resultado = 1; //quadrado perfeito
 
-        while (q < k) {
-            i = i + 2;
-            q = q + i;
+        while (resultado < num) {
+            auxiliar = auxiliar + 2;
+            resultado = resultado + auxiliar;
         }
 
-        if (q == k) {
+        if (resultado == num) {
             return true;
         } else {
             return false;

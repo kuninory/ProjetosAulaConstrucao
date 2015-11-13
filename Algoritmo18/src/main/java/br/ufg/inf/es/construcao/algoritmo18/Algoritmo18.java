@@ -10,38 +10,38 @@ import br.ufg.inf.es.construcao.algoritmo16.Algoritmo16;
 public class Algoritmo18 {
 
     /**
-     * Encontra o log de 'k' para a base 'n'.
+     * Encontra o log de 'logaritmando' para a base 'base'.
      *
-     * @param n É a base.
-     * @param k É o logaritmando.
+     * @param base É a base.
+     * @param logaritmando É o logaritmando.
      *
-     * @return Retorna o fatorial de 'n'
+     * @return Retorna o fatorial de 'base'
      *
-     * @throws IllegalArgumentException Se o parâmetro "n" for menor que 1 ou 
-     * se "k" for menor que 2.
+     * @throws IllegalArgumentException Se o parâmetro "base" for menor que 1 ou 
+     * se "logaritmando" for menor que 2.
      */
-    public static double logNaturalSimples(int n, int k) {
+    public static double logNaturalSimples(int base, int logaritmando) {
 
-        if (n < 1) {
-            throw new IllegalArgumentException("O valor de 'n' deve ser maior "
-                    + "ou igual a 1!");
+        if (base < 1) {
+            throw new IllegalArgumentException("O valor de 'base' deve ser"
+                    + " maior ou igual a 1!");
         }
-        if (k < 2) {
-            throw new IllegalArgumentException("O valor de 'k' deve ser maior "
-                    + "ou igual a 2!");
+        if (logaritmando < 2) {
+            throw new IllegalArgumentException("O valor de 'logaritmando' "
+                    + "deve ser maior ou igual a 2!");
         }
 
         int i = 2;
-        double e = n + 1;
+        double resultado = base + 1;
 
-        while (i <= k) {
+        while (i <= logaritmando) {
 
-            int p = Algoritmo05.potencia(n, i);
+            int p = Algoritmo05.potencia(base, i);
             int f = Algoritmo16.fatorial(i);
-            e = e + (p / f);
+            resultado = resultado + (p / f);
             i++;
         }
 
-        return e;
+        return resultado;
     }
 }
